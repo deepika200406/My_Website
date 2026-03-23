@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Beauty Parlour</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff0f5;
+        }
+        header {
+            background: #ff69b4;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background: #ff85c1;
+            padding: 10px;
+        }
+        nav a {
+            margin: 10px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        input, textarea {
+    	width: 80%;
+    	padding: 10px;
+    	border-radius: 5px;
+    	border: 1px solid #ccc;
+	}
+
+	button {
+    	background: #ff69b4;
+    	color: white;
+    	padding: 10px 20px;
+    	border: none;
+    	border-radius: 5px;
+	}
+	html {
+    	scroll-behavior: smooth;
+	}
+	header {
+    	background: linear-gradient(to right, #ff69b4, #ff1493);
+	}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Glow Beauty Parlour</h1>
+    <p>Enhance Your Natural Beauty ✨</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section>
+    <h2>Welcome to Glow Beauty Parlour</h2>
+    <p>Your one-stop destination for beauty and self-care 💖</p>
+    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9" 
+     alt="Beauty Service" 
+     style="width:300px; border-radius:10px;">
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Facial</h3>
+            <p>Glow boosting facial treatments</p>
+        </div>
+        <div class="card">
+            <h3>Makeup</h3>
+            <p>Bridal & party makeup</p>
+        </div>
+        <div class="card">
+            <h3>Hair Styling</h3>
+            <p>Trendy haircuts & styling</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <form>
+    <input type="text" placeholder="Your Name" required><br><br>
+    <input type="email" placeholder="Your Email" required><br><br>
+    <textarea placeholder="Your Message" required></textarea><br><br>
+    <button type="submit">Send Message</button>
+    </form>
+    <h2>Contact Us</h2>
+    <p>📍 Location: Your City</p>
+    <p>📞 Phone: 9876543210</p>
+    <p>📧 Email: glowbeauty@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Glow Beauty Parlour</p>
+</footer>
+
+</body>
+</html>
